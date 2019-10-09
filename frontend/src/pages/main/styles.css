@@ -1,0 +1,118 @@
+.container h2 {
+    text-align: center;
+}
+
+.lend-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.lend-list article {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px 80px;
+    margin-bottom: 20px;
+}
+
+.lend-list article p {
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.lend-list article p i{
+    display: block;
+    color: #da552f;
+}
+
+
+.lend-list article p i[disabled]{
+    opacity: 0;
+}
+
+.lend-list article a:not(#edit) {
+    height: 42px;
+    border: none;
+    background: none;
+    margin-top: 10px;
+    color: #da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.lend-list article a#edit{
+    text-decoration: none;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container article label {
+    display: block;
+    font-weight: bold;
+    margin: 0;
+}
+
+.lend-list article a:hover {
+    background: #da552f;
+    color: #fff;
+}
+
+.lend-list label input {
+    margin: 8px;
+}
+
+.lend-list article button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lend-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.lend-list .actions button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #da552f;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lend-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.lend-list .actions button:hover {
+    opacity: 0.7;
+}
+
+.lend-list .actions button[disabled]:hover {
+    opacity: 0.5;
+}
